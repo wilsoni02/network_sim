@@ -41,3 +41,4 @@ Thumbs.db            # Windows thumbnail cache
 *.log
 *.tmp
 *.swp                # Vim swap files
+.DS_Store
