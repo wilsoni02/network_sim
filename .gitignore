@@ -36,9 +36,12 @@ run/                 # if CLion ends up creating this
 .vscode/.cmake/
 .vscode/*.db
 
+.vscode/tasks.json
+
 .DS_Store            # macOS finder junk
 Thumbs.db            # Windows thumbnail cache
 *.log
 *.tmp
 *.swp                # Vim swap files
 .DS_Store
+main
