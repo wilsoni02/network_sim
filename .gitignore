@@ -1,0 +1,43 @@
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
+.ninja_log
+.ninja_deps
+
+*.o
+*.obj
+*.elf
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+network_sim          # final executable
+
+*.dSYM/
+*.pdb
+*.ilk
+*.exp
+core                 # core dumps (Linux)
+*.core               # core dumps (macOS)
+
+.idea/
+cmake-build-debug/
+cmake-build-release/
+run/                 # if CLion ends up creating this
+
+
+.vscode/ipch/
+.vscode/.cmake/
+.vscode/*.db
+
+.DS_Store            # macOS finder junk
+Thumbs.db            # Windows thumbnail cache
+*.log
+*.tmp
+*.swp                # Vim swap files
