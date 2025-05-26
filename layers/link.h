@@ -1,14 +1,11 @@
-//
-// Created by Ian Wilson on 5/21/25.
-//
+#ifndef LINK_H
+#define LINK_H
 
-#ifndef UNTITLED1_LINK_H
-#define UNTITLED1_LINK_H
+#include <string>
 
+std::string Link_Send(const std::string& data);
 
-class link {
+std::string Link_Receive(const std::string& data);
 
-};
+#endif // LINK_H
 
-
-#endif //UNTITLED1_LINK_H

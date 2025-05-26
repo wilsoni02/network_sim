@@ -1,14 +1,10 @@
-//
-// Created by Ian Wilson on 5/21/25.
-//
+#ifndef NETWORK_H
+#define NETWORK_H
 
-#ifndef UNTITLED1_NETWORK_H
-#define UNTITLED1_NETWORK_H
+#include <string>
 
+std::string Net_Send(const std::string& data);
 
-class network {
+std::string Net_Receive(const std::string& data);
 
-};
-
-
-#endif //UNTITLED1_NETWORK_H
+#endif // NETWORK_H
