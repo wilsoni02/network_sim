@@ -66,9 +66,15 @@ g++ -std=c++17 -Ilayers \
 
 ## How It Works
 
+This simulation demonstrates the Internet Protocol Stack by showing how data is encapsulated for data transmission and decapsulated for reception. Each layer has a specific job that relates the software sending data to the networking hardware, which allows for efficient and reliable data sharing.
+For this simulation, the Physical Layer is excluded.
+
+This is the process of our simulation:
+
 1. Application Layer adds its header and passes the message to Transport.
 2. Transport Layer adds its header and passes it to Network.
 3. Network Layer adds its header and passes it to Link.
 4. Link Layer transmits the framed message.
 5. On receipt, each layer in reverse order removes its header and passes the payload up.
 
+During transmission, each layer adds a header to the original message, encapuslating the data. During decapsulation, the headers are removed in reverse order, leaving only the original message. This reflects how the Internet Protocol Stack handles data. The process is intuitive because data must pass from the Application Layer to the Transport, Network, and Link Layers before reaching the networking hardware for transmission.
