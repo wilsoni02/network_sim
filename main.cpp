@@ -24,7 +24,7 @@ int main() {
 
     std::cout << "==== Receiving ====" << std::endl;
     std::string link_in   = Link_Receive(link_out);
-    std::string net_in    = Net_Receive(link_in);n
+    std::string net_in    = Net_Receive(link_in);
     std::string trans_in  = Trans_Receive(net_in);
     std::string app_in    = App_Receive(trans_in);
 

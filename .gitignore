@@ -45,3 +45,6 @@ Thumbs.db            # Windows thumbnail cache
 *.swp                # Vim swap files
 .DS_Store
 main
+network_sim
+.vscode/launch.json
+.vscode/c_cpp_properties.json
